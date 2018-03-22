@@ -1,6 +1,4 @@
-pipeline {
-    agent any
-
+node('jenkins-k8s') {
     stages {
         stage('Build') {
             steps {
