@@ -1,4 +1,4 @@
-node('jenkins-k8s') {
+pipeline {
     stages {
         stage('Build') {
             steps {
